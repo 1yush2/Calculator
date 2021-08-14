@@ -5,3 +5,38 @@
     font-family: 'STIX Two Text', serif;
     font-weight: normal;
 }
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.calc-greed {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120, auto) repeat(5, 100px);
+}
+
+.calc-greed > button { 
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.calc-greed > button:hover{
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.twice{
+    grid-column: span 2;
+}
+
+.outpt{
+    grid-column: 1 / -1;
+    background-color: rgba(148,187,233,.80);
+}
