@@ -1,0 +1,7 @@
+const numButtons = document.querySelectorAll('[data-numbs]')
+const operateButtons = document.querySelectorAll('[data-operates]')
+const clearButton = document.querySelector('[data-allClear]')
+const delButton = document.querySelector('[data-del]')
+const equalsButton = document.querySelector('[data-print]')
+const previousDislplayText = document.querySelector('[data-previous-num]')
+const previousDisplayText = document.querySelector('[data-now-num]')
